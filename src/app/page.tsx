@@ -15,7 +15,7 @@ const frameMetadata = getFrameMetadata({
     aspectRatio: "1.91:1",
   },
   input: {
-    text: "enter...",
+    text: "Enter your Aptos Wallet Address",
   },
   postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
 });
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>Mint an NFT</h1>
+      <h1>Mint an NFT on Aptos</h1>
     </>
   );
 }
