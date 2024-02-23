@@ -63,7 +63,7 @@ export async function POST(req: NextRequest): Promise<Response> {
             postUrl: `${NEXT_PUBLIC_URL}/api/frame`,
             buttons: [
               {
-                label: "Try again",
+                label: "Please try again",
                 action: "post",
               },
             ],
@@ -85,9 +85,10 @@ export async function POST(req: NextRequest): Promise<Response> {
       body: JSON.stringify({
         recipient: recipientAddress,
         metadata: {
-          name: "Cool NFT 😎",
+          name: "The First Frame NFT on Aptos",
           image: `${NEXT_PUBLIC_URL}/nft.png`,
-          description: "This is my cool NFT",
+          description:
+            "This is the first NFT that was minted on Aptos using Crossmint",
         },
         compressed: true,
       }),
@@ -103,7 +104,8 @@ export async function POST(req: NextRequest): Promise<Response> {
         },
         buttons: [
           {
-            label: "Your NFT will be minted soon",
+            label:
+              "Your NFT will be delivered to your Aptos wallet address soon!",
           },
         ],
       })
