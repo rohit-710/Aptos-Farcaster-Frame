@@ -91,7 +91,6 @@ export async function POST(req: NextRequest): Promise<Response> {
           description:
             "This is the first NFT that was minted on Aptos using Crossmint",
         },
-        compressed: true,
       }),
     };
 
