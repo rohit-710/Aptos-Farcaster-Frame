@@ -11,6 +11,7 @@ export async function POST(req: NextRequest): Promise<Response> {
   const NEXT_PUBLIC_URL = process.env.NEXT_PUBLIC_URL;
   const body: FrameRequest = await req.json();
   const env = process.env.CROSSMINT_ENV || "staging";
+  const hash = "";
 
   try {
     const { message } = await getFrameMessage(body, {
