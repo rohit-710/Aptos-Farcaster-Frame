@@ -10,7 +10,7 @@ export async function POST(req: NextRequest): Promise<Response> {
   let recipientAddress = "";
   const NEXT_PUBLIC_URL = process.env.NEXT_PUBLIC_URL;
   const body: FrameRequest = await req.json();
-  const env = process.env.CROSSMINT_ENV || "staging";
+  const env = process.env.CROSSMINT_ENV || "www";
   const hash = "";
 
   try {
