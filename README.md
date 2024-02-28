@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="pW_wEbVo1oOPEPdIY8LMsemd9i6X_KBIgxR-TuTal7s" />
+
 # The First Farcaster Frame on Aptos to Mint NFTs
 
 This is a Farcaster Frame that allows your Farcaster users to mint an NFT on the Aptos Blockchain directly to their Aptos wallet. All you need to do is like the cast and re-cast it, and then copy paste your Aptos wallet address and click on Mint to mint the NFT. The NFT will then be delivered to your wallet address in a few seconds.
