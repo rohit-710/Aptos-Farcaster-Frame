@@ -6,7 +6,7 @@ This is a Farcaster Frame that allows your Farcaster users to mint an NFT on the
 
 ## Create and Deploy an NFT Collection on Aptos using [Crossmint](http://crossmint.com/?utm_source=rohit&utm_medium=github&utm_campaign=aptos-farcaster)
 
-> The collection that I created and deployed is on Production, i.e., Aptos Mainnet. However, it is recommended that you familiarize yourself with this on Staging first before migrating (Testnet/Devnet) to Production (Mainnet). Click to proceed to Crossmint's [Staging Console](https://staging.crossmint.com/console/overview?utm_source=rohit&utm_medium=github&utm_campaign=aptos-farcaster). Click to proceed to Crossmint's [Production Console](https://crossmint.com/console/overview?utm_source=rohit&utm_medium=github&utm_campaign=aptos-farcaster)
+> The collection that I created and deployed is on Production, i.e., Aptos Mainnet. However, it is recommended that you familiarize yourself with this on Staging (Testnet/Devnet) first before migrating to Production (Mainnet). Click to proceed to Crossmint's [Staging Console](https://staging.crossmint.com/console/overview?utm_source=rohit&utm_medium=github&utm_campaign=aptos-farcaster). Click to proceed to Crossmint's [Production Console](https://crossmint.com/console/overview?utm_source=rohit&utm_medium=github&utm_campaign=aptos-farcaster)
 
 1. Create a [Developer Account](https://staging.crossmint.com/console/overview?utm_source=rohit&utm_medium=github&utm_campaign=aptos-farcaster) on Crossmint.
 2. Click on Developers -> Click on "**API Keys**"
