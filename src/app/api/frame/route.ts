@@ -12,6 +12,29 @@ export async function POST(req: NextRequest): Promise<Response> {
   const body: FrameRequest = await req.json();
   const env = process.env.CROSSMINT_ENV || "staging";
 
+  // code line 16-35 is to end the claim. You can skip this code when you are creating a frame of your own. 
+  if (
+    Number(process.env.WARPCAST_HASH!) ===
+    0x8d06c5b394de07df897735803fcfca983342a116
+  ) {
+    return new NextResponse(
+      getFrameHtmlResponse({
+        image: {
+          src: `${NEXT_PUBLIC_URL}/claimEnded.png`,
+        },
+        ogTitle: "Claim Ended",
+        buttons: [
+          {
+            label: "Follow",
+            action: "link",
+            target: "https://warpcast.com/rohit7101",
+          },
+        ],
+      })
+    );
+  }
+
+  // code for the frame to claim NFT
   try {
     const { message } = await getFrameMessage(body, {
       neynarApiKey: "NEYNAR_ONCHAIN_KIT",
